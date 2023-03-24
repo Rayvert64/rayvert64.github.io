@@ -5,16 +5,19 @@ title = 'Philippe(Adora) Boutin'
   [languages.en]
     title = "My AI Website"
     languageName = "English"
+    contentDir = "content/en"
     weight = 1
 
   [languages.fr]
     title = "Mon site Web IA"
     languageName = "Français"
+    contentDir = "content/fr"
     weight = 2
 
   [languages.nb]
     title = "Min nettside AI"
     languageName = "Norsk Bokmål"
+    contentDir = "content/nb"
     weight = 3
 
 [menu]
