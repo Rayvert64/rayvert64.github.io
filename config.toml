@@ -3,39 +3,65 @@ title = 'Philippe(Adora) Boutin'
 theme = "hugo.386"
 
 [languages]
-  [languages.en]
-    title = "My AI Website"
-    languageName = "Eng"
-    contentDir = "content/en"
-    weight = 1
-
-  [languages.fr]
-    title = "Mon site Web IA"
-    languageName = "Fr"
-    contentDir = "content/fr"
-    weight = 2
-
-  [languages.nb]
-    title = "Min nettside AI"
-    languageName = "Nb"
-    contentDir = "content/nb"
-    weight = 3
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
+[languages.en]
+  title = "My AI Website"
+  languageName = "En"
+  contentDir = "content/en"
+  weight = 1
+  [[languages.en.menu.main]]
+    identifier = "About"
     name = "About Me"
     url = "/about/"
     weight = 1
-
-  [[menu.main]]
-    identifier = "opinions"
+  [[languages.en.menu.main]]
+    identifier = "Opinions"
     name = "Opinions/Philosophies"
     url = "/opinions/"
     weight = 2
-
-  [[menu.main]]
+  [[languages.en.menu.main]]
     identifier = "contact"
     name = "Contact Me"
     url = "/contact/"
+    weight = 3
+
+[languages.fr]
+  title = "Mon site Web IA"
+  languageName = "Fr"
+  contentDir = "content/fr"
+  weight = 2
+  [[languages.fr.menu.main]]
+    identifier = "About"
+    name = "À propos de moi"
+    url = "/fr/about/"
+    weight = 1
+  [[languages.fr.menu.main]]
+    identifier = "Opinions"
+    name = "Mes Opinions/Philosophies"
+    url = "/fr/opinions/"
+    weight = 2
+  [[languages.fr.menu.main]]
+    identifier = "contact"
+    name = "Contactez-moi"
+    url = "/fr/contact/"
+    weight = 3
+
+[languages.nb]
+  title = "Min nettside AI"
+  languageName = "Nb"
+  contentDir = "content/nb"
+  weight = 3
+  [[languages.nb.menu.main]]
+    identifier = "About"
+    name = "Om meg"
+    url = "/nb/about/"
+    weight = 1
+  [[languages.nb.menu.main]]
+    identifier = "Opinions"
+    name = "Min meninger"
+    url = "/nb/opinions/"
+    weight = 2
+  [[languages.nb.menu.main]]
+    identifier = "contact"
+    name = "Kontakt meg"
+    url = "/nb/contact/"
     weight = 3
