@@ -4,7 +4,7 @@ theme = "hugo.386"
 
 [languages]
 [languages.en]
-  title = "My AI Website"
+  title = "My AI Website!"
   languageName = "En"
   contentDir = "content/en"
   weight = 1
