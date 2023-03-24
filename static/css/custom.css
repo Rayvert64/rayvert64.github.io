@@ -1,0 +1,11 @@
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.language-selector {
+    margin: 0;
+    border: 0;
+    width: max-content;
+    background-color: yellow;
+}

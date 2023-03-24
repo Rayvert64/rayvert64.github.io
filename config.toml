@@ -1,22 +1,23 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://rayvert64.github.io'
 title = 'Philippe(Adora) Boutin'
+theme = "hugo.386"
 
 [languages]
   [languages.en]
     title = "My AI Website"
-    languageName = "English"
+    languageName = "Eng"
     contentDir = "content/en"
     weight = 1
 
   [languages.fr]
     title = "Mon site Web IA"
-    languageName = "Français"
+    languageName = "Fr"
     contentDir = "content/fr"
     weight = 2
 
   [languages.nb]
     title = "Min nettside AI"
-    languageName = "Norsk Bokmål"
+    languageName = "Nb"
     contentDir = "content/nb"
     weight = 3
 
