@@ -1,3 +1,37 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Philippe(Adora) Boutin'
+
+[languages]
+  [languages.en]
+    title = "My AI Website"
+    languageName = "English"
+    weight = 1
+
+  [languages.fr]
+    title = "Mon site Web IA"
+    languageName = "Français"
+    weight = 2
+
+  [languages.nb]
+    title = "Min nettside AI"
+    languageName = "Norsk Bokmål"
+    weight = 3
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About Me"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "opinions"
+    name = "Opinions/Philosophies"
+    url = "/opinions/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact Me"
+    url = "/contact/"
+    weight = 3
