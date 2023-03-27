@@ -20,7 +20,7 @@ theme = "hugo.386"
     url = "/opinions/"
     weight = 2
   [[languages.en.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Contact Me"
     url = "/contact/"
     weight = 3
@@ -42,7 +42,7 @@ theme = "hugo.386"
     url = "/fr/opinions/"
     weight = 2
   [[languages.fr.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Contactez-moi"
     url = "/fr/contact/"
     weight = 3
@@ -64,7 +64,7 @@ theme = "hugo.386"
     url = "/nb/opinions/"
     weight = 2
   [[languages.nb.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Kontakt meg"
     url = "/nb/contact/"
     weight = 3
