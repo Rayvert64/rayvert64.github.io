@@ -8,6 +8,7 @@ theme = "hugo.386"
   languageName = "En"
   contentDir = "content/en"
   weight = 1
+  goBack = "Back to homepage"
   [[languages.en.menu.main]]
     identifier = "About"
     name = "About Me"
@@ -29,6 +30,7 @@ theme = "hugo.386"
   languageName = "Fr"
   contentDir = "content/fr"
   weight = 2
+  goBack = "Retour à l'accueil"
   [[languages.fr.menu.main]]
     identifier = "About"
     name = "À propos de moi"
@@ -50,6 +52,7 @@ theme = "hugo.386"
   languageName = "Nb"
   contentDir = "content/nb"
   weight = 3
+  goBack = "Gå tilbake til hjemmesiden"
   [[languages.nb.menu.main]]
     identifier = "About"
     name = "Om meg"
