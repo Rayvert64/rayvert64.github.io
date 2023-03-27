@@ -8,6 +8,7 @@ theme = "hugo.386"
   languageName = "En"
   contentDir = "content/en"
   weight = 1
+  goBack = "Back to homepage"
   [[languages.en.menu.main]]
     identifier = "About"
     name = "About Me"
@@ -19,7 +20,7 @@ theme = "hugo.386"
     url = "/opinions/"
     weight = 2
   [[languages.en.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Contact Me"
     url = "/contact/"
     weight = 3
@@ -29,6 +30,7 @@ theme = "hugo.386"
   languageName = "Fr"
   contentDir = "content/fr"
   weight = 2
+  goBack = "Retour à l'accueil"
   [[languages.fr.menu.main]]
     identifier = "About"
     name = "À propos de moi"
@@ -40,7 +42,7 @@ theme = "hugo.386"
     url = "/fr/opinions/"
     weight = 2
   [[languages.fr.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Contactez-moi"
     url = "/fr/contact/"
     weight = 3
@@ -50,6 +52,7 @@ theme = "hugo.386"
   languageName = "Nb"
   contentDir = "content/nb"
   weight = 3
+  goBack = "Gå tilbake til hjemmesiden"
   [[languages.nb.menu.main]]
     identifier = "About"
     name = "Om meg"
@@ -61,7 +64,7 @@ theme = "hugo.386"
     url = "/nb/opinions/"
     weight = 2
   [[languages.nb.menu.main]]
-    identifier = "contact"
+    identifier = "Contact"
     name = "Kontakt meg"
     url = "/nb/contact/"
     weight = 3

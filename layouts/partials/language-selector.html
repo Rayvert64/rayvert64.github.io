@@ -1,5 +1,5 @@
 <select class="language-selector" onchange="window.location.href=this.value">
-{{ range .Site.Home.AllTranslations }}
+{{ range .AllTranslations }}
     <option value="{{ .Permalink }}" {{ if eq $.Site.Language.Lang .Lang }}selected{{ end }}>
     {{ .Language.LanguageName }}
     </option>
