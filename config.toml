@@ -5,7 +5,7 @@ theme = "hugo.386"
 [languages]
 [languages.en]
   title = "My AI Website!"
-  languageName = "En"
+  languageName = "⌨En"
   contentDir = "content/en"
   weight = 1
   goBack = "Back to homepage"
@@ -27,7 +27,7 @@ theme = "hugo.386"
 
 [languages.fr]
   title = "Mon site Web IA"
-  languageName = "Fr"
+  languageName = "⌨Fr"
   contentDir = "content/fr"
   weight = 2
   goBack = "Retour à l'accueil"
@@ -49,7 +49,7 @@ theme = "hugo.386"
 
 [languages.nb]
   title = "Min nettside AI"
-  languageName = "Nb"
+  languageName = "⌨Nb"
   contentDir = "content/nb"
   weight = 3
   goBack = "Gå tilbake til hjemmesiden"
